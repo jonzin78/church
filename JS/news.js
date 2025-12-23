@@ -20,14 +20,14 @@ client
     wrap.innerHTML = res.contents
       .map(
         (item) => `
-      <a href="../HTML/news-page.html?id=${item.id}">
+      <a href="./news-page.html?id=${item.id}">
         <div class="news-page">
-          <img class="news-image" src="${item.image?.url || "../images/church_in.JPG"}" alt="">
+          <img class="news-image" src="${item.image?.url || "./images/church_in.JPG"}" alt="">
           <div class="news-right">
             <p class="news-page-date">${item.publishedAt?.substring(0, 10)}</p>
             <p class="news-page-text">${item.title}</p>
           </div>
-          <img class="btn-more" src="../images/btn-more.svg" alt="">
+          <img class="btn-more" src="./images/btn-more.svg" alt="">
         </div>
       </a>
     `

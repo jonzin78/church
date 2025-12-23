@@ -4,19 +4,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>谷のゆり福音教会</title>
+    <title>BIBLE</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/the-new-css-reset/css/reset.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../CSS/style.css">
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
     <header class="header">
         <div class="inner">
             <div class="menu">
-                <h1><a href="../HTML/index.html"><img src="../images/noletter.png" alt="ロゴ" class="logo"></a>
+                <h1><a href="./index.html"><img src="./images/noletter.png" alt="ロゴ" class="logo"></a>
                 </h1>
             </div>
             <div class="menu-btn">
@@ -26,8 +27,7 @@
             </div>
             <nav class="menu-panel">
                 <ul>
-                    <li><a href="../HTML/worship.html">礼拝案内</a></li>
-                    <li><a href="#">聖書</a></li>
+                    <li><a href="./index.html">トップ</a></li>
                 </ul>
             </nav>
         </div>
@@ -37,15 +37,12 @@
         <div class="phone">
             <div class="inner">
                 <div class="back" onclick="history.back();">
-                    <img src=" ../images/アセット 2.svg" alt="" 　id="backBtn">
+                    <img src=" ./images/アセット 2.svg" alt="" 　id="backBtn">
                 </div>
-                <div class="news">
-                    <p class="en-title">NEWS</p>
-                    <h2 class="title">お知らせ</h2>
-
-                    <div id="news-list"></div>
-                    <script type="module" src="../JS/news.js"></script>
-
+                <p class="en-title">BIBLE DL</p>
+                <h2 class="title">聖書ダウンロード</h2>
+                <div id="pdfArea">
+                    <iframe src="./King James Biblia(pt-br).pdf" width="100%" height="600"></iframe>
                 </div>
             </div>
         </div>
@@ -69,10 +66,7 @@
             </div>
             <nav>
                 <ul class="footer__menu">
-                    <li><a href="../HTML/index.html">トップ</a></li>
-                    <li><a href="../HTML/worship.html">礼拝案内</a></li>
-
-                    <li><a href="../HTML/index.html">聖書</a></li>
+                    <li><a href="./index.html">トップ</a></li>
                 </ul>
             </nav>
             <div class="sns">
@@ -84,7 +78,7 @@
         </div>
     </footer>
 </body>
-<script src="../JS/script.js" defer></script>
+<script src="./js/script.js" defer></script>
 
 
 </html>

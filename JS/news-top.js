@@ -29,7 +29,7 @@ client
 
                 return `
           <li class="news-item">
-            <a href="../HTML/news-page.html?id=${item.id}">
+            <a href="./news-page.html?id=${item.id}">
               <p class="news-date">${formatDate(date)}</p>
               <p class="news-text">${item.title}</p>
             </a>
