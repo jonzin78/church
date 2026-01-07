@@ -179,7 +179,7 @@ about
 }
 
 .btn:hover {
-    background-color: #ff0000;
+    background-color: #d13b37;
     color: #fff;
 }
 
@@ -395,7 +395,6 @@ calendar
     display: block;
     padding: 10px 24px;
     border: 1px solid #5a6f70;
-    /* 落ち着いたグリーンやグレーに変更可 */
     border-radius: 30px;
     font-size: 14px;
     color: #000;
@@ -408,7 +407,7 @@ calendar
 }
 
 .calendar-more:hover {
-    background-color: #ff0000;
+    background-color: #d13b37;
     color: #fff;
 }
 
